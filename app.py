@@ -23,10 +23,8 @@ payload = {
     "appid": "071e2ca913b7853e0af44db7564ec477",
     "units": "metric"}
 
-
-def flatten(d):
-    out = {}
-    for key, val in d.items():
+  out = {}
+   for key, val in d.items():
         if isinstance(val, dict):
             val = [val]
         if isinstance(val, list):
@@ -124,4 +122,4 @@ https://www.open-plant.com/knowledge-base/how-to-install-influxdb-docker-for-win
 # def daily_to_influxdb(d):
 
 
-# yB6yP6pH5mX4yL0uW3pF0rR4rE3rB8iR6nE5bC5xD7dK1xA6iK MetofficeAPI
+# yB6yP6pH5mX4yL0uW3pF0rR4rE3rB8iR6nE5bC5xD7dK1xA6iK MetofficeAPI #hide
